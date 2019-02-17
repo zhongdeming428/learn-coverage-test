@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/zhongdeming428/learn-coverage-test/branch/master/graph/badge.svg)](https://codecov.io/gh/zhongdeming428/learn-coverage-test)
+
 ## 覆盖率测试
 
 在写代码的时候，我们有时候会进行代码测试以保证我们代码的可执行性。但是测试代码只能保证测试案例能够通过，我们怎么样才能确保我们的测试案例基本覆盖了所有的情况呢？
@@ -73,11 +75,11 @@ $ npm i -D nyc
 
 这样当你在 `npm run test` 之后就可以在测试结果之后看到输出的覆盖率报告，而且还会额外生成覆盖率报告页面文件到项目的 coverage 目录下。
 
-![捕获1.png](./pics/捕获1.png)
+![捕获1.png](https://github.com/zhongdeming428/learn-coverage-test/blob/master/pics/%E6%8D%95%E8%8E%B71.PNG?raw=true)
 
 点击 `coverage/index.html` 可以看到详细的覆盖率测试结果：
 
-![捕获2.png](./pics/捕获2.png)
+![捕获2.png](https://github.com/zhongdeming428/learn-coverage-test/blob/master/pics/%E6%8D%95%E8%8E%B72.PNG?raw=true)
 
 ## 整合 Codecov 和 TravisCI 进行覆盖率自动化测试
 
@@ -109,9 +111,12 @@ cache:
 
 配置好之后，当你每次对项目进行 PR 的时候，Codecov 会自动测试覆盖率，然后将报告评论在 PR 中：
 
-![捕获3.png](./pics/捕获3.png)
+![捕获3.png](https://github.com/zhongdeming428/learn-coverage-test/blob/master/pics/%E6%8D%95%E8%8E%B73.PNG?raw=true)
 
 如果 Contributor 没有对新增代码写对应的测试案例，你就可以一眼看出来。如果测试覆盖率太低，你可以修改 PR，重新合并。
 
 ## 添加 Codecov Badge
 
+在 Codecov 官网登录后找到你的 repo，然后点击进去，依次找到 Settings -> Badge，复制对应的代码即可。
+
+效果参考 https://github.com/zhongdeming428/learn-coverage-test。
