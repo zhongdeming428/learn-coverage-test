@@ -1,5 +1,7 @@
 [![codecov](https://codecov.io/gh/zhongdeming428/learn-coverage-test/branch/master/graph/badge.svg)](https://codecov.io/gh/zhongdeming428/learn-coverage-test)
 
+> 本文对应项目为 [learn-coverage-test](https://github.com/zhongdeming428/learn-coverage-test)，可以对照项目案例进行阅读。
+
 ## 覆盖率测试
 
 在写代码的时候，我们有时候会进行代码测试以保证我们代码的可执行性。但是测试代码只能保证测试案例能够通过，我们怎么样才能确保我们的测试案例基本覆盖了所有的情况呢？
