@@ -73,11 +73,11 @@ $ npm i -D nyc
 
 这样当你在 `npm run test` 之后就可以在测试结果之后看到输出的覆盖率报告，而且还会额外生成覆盖率报告页面文件到项目的 coverage 目录下。
 
-![捕获1.png](/pics/捕获1.png)
+![捕获1.png](./pics/捕获1.png)
 
 点击 `coverage/index.html` 可以看到详细的覆盖率测试结果：
 
-![捕获2.png](/pics/捕获2.png)
+![捕获2.png](./pics/捕获2.png)
 
 ## 整合 Codecov 和 TravisCI 进行覆盖率自动化测试
 
@@ -109,7 +109,7 @@ cache:
 
 配置好之后，当你每次对项目进行 PR 的时候，Codecov 会自动测试覆盖率，然后将报告评论在 PR 中：
 
-![捕获3.png](/pics/捕获3.png)
+![捕获3.png](./pics/捕获3.png)
 
 如果 Contributor 没有对新增代码写对应的测试案例，你就可以一眼看出来。如果测试覆盖率太低，你可以修改 PR，重新合并。
 
