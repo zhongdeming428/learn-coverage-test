@@ -1,0 +1,30 @@
+{
+  "name": "learn-coverage-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "node_modules/.bin/nyc --reporter=html --reporter=text node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongdeming428/learn-coverage-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongdeming428/learn-coverage-test/issues"
+  },
+  "homepage": "https://github.com/zhongdeming428/learn-coverage-test#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.3.0"
+  }
+}
