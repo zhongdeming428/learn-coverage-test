@@ -117,6 +117,10 @@ cache:
 
 如果 Contributor 没有对新增代码写对应的测试案例，你就可以一眼看出来。如果测试覆盖率太低，你可以修改 PR，重新合并。
 
+我在 [PR](https://github.com/zhongdeming428/learn-coverage-test/pull/1) 中修改了测试代码，提高了测试覆盖率，Codecov 在我合并 PR 之前就已经把覆盖率报告评论在了 PR 下方了，可以明显地看到覆盖率得到了提升，确实十分的方便。
+
+![捕获4.png](https://github.com/zhongdeming428/learn-coverage-test/blob/master/pics/%E6%8D%95%E8%8E%B74.PNG?raw=true)
+
 ## 添加 Codecov Badge
 
 在 Codecov 官网登录后找到你的 repo，然后点击进去，依次找到 Settings -> Badge，复制对应的代码即可。
